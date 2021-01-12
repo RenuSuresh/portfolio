@@ -1,0 +1,32 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  align-items: center;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.header__nav__black {
+  background-color: #333333;
+}
+.header__menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+li {
+  padding: 20px;
+}
+a {
+  color: #f55e5e;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #c50000;
+}
