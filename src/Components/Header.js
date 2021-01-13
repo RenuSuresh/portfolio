@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
+
 function Header() {
   const [showNav, handleShowNav] = useState(false);
   useEffect(() => {
@@ -17,17 +18,21 @@ function Header() {
   return (
     <div className={`header ${showNav && "header__nav__black"}`}>
       <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" className="header__checkbtn">
+          <i className="fa fa-bars"></i>
+        </label>
         <ul className="header__menu">
-          <li className="header__home">
+          <li>
             <a href="#home">Home</a>
           </li>
-          <li className="header__about">
+          <li>
             <a href="#about">About</a>
           </li>
-          <li className="header__about">
+          <li>
             <a href="#work_done">Work done</a>
           </li>
-          <li className="header__contact">
+          <li>
             <a href="#contact">Contact</a>
           </li>
         </ul>
