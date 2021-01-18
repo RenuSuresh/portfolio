@@ -1,0 +1,25 @@
+.about {
+  background-color: #010431;
+}
+.about__row {
+  display: flex;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  justify-content: space-evenly;
+}
+
+.about__img {
+  display: flex;
+  flex: 0.3;
+  justify-content: flex-end;
+}
+.about__profile {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.about__details {
+  color: white;
+  flex: 0.5;
+}
