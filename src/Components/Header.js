@@ -15,13 +15,17 @@ function Header() {
       window.addEventListener("scroll", () => {});
     };
   }, []);
+
   return (
     <div className={`header ${showNav && "header__nav__black"}`}>
       <nav>
-        <input type="checkbox" id="check" />
+        {/* <input type="checkbox" id="check" />
         <label for="check" className="header__checkbtn">
           <i className="fa fa-bars"></i>
-        </label>
+        </label> */}
+        <a id="header__menu__icon">
+          <i className="fa fa-bars"></i>
+        </a>
         <ul className="header__menu">
           <li>
             <a href="#home">Home</a>

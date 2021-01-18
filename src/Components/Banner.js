@@ -10,13 +10,7 @@ function Banner() {
         backgroundSize: "cover",
         height: "100vh",
       }}
-    >
-      {/* <img
-        src="https://wallpaperaccess.com/full/760289.jpg"
-        alt="image"
-        className="banner__image"
-      /> */}
-    </div>
+    ></div>
   );
 }
 

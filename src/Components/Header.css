@@ -1,8 +1,8 @@
 .header {
   position: fixed;
   width: 100%;
-  /* display: flex; */
-  /* justify-content: flex-end; */
+  display: flex;
+  justify-content: flex-end;
   height: 40px;
   align-items: center;
   z-index: 1;
@@ -23,12 +23,16 @@ li {
   padding: 20px;
 }
 a {
-  color: #f55e5e;
+  color: #2c1515;
   text-decoration: none;
 }
 
 a:focus {
   color: #c50000;
+}
+
+a:hover {
+  color: white;
 }
 
 .header__checkbtn {
