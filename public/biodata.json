@@ -1,6 +1,25 @@
 {
-    "main":{
-        "name":"Renu Suresh Ganvir",
-        "bio":"I am a project engineer (Developer) at Wipro. I have worked on Angular based projects, as an interest, I have learned React and also done mini projects. I am hardworking and eager to learn new technology for the better tech development. In my free time I like to do art work, making greeting cards and orgami, I also like to visit orphanage home, in my during festival or if planning any tour."
-    }
+  "main": {
+    "name": "Renu Suresh Ganvir",
+    "description": "I am a web development engineer and I use react and Angular to develop pages. This project is a resume template, in which tech stack I used is React",
+    "bio": "I am a project engineer (Developer) at Wipro. I have worked on Angular based projects, as an interest, I have learned React and also done mini projects. I am hardworking and eager to learn new technology for the better tech development. In my free time I like to do art work, making greeting cards and origami, I also like to visit orphanage home, during festival or if planning any tour.",
+    "email": "rganvir500@gmail.com",
+    "github": "https://github.com/RenuSuresh/portfolio",
+    "project": "https://github.com/RenuSuresh/portfolio",
+    "address": {
+      "state": "New Delhi"
+    },
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/renu-suresh-ganvir-a2562b125",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/RenuSuresh",
+        "className": "fa fa-github"
+      }
+    ]
+  }
 }
