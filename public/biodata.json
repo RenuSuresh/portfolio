@@ -110,5 +110,39 @@
         "level": "60%"
       }
     ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Amazon Clone",
+        "category": "(POC) Learning to build Amazon clone with React.",
+        "image": "amazon-clone.png",
+        "url": "https://laughing-babbage-186442.netlify.app"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "(POC) Netflix clone to check the latest moview uploaded. Can view the trailer.",
+        "image": "netflix-clone.JPG",
+        "url": "https://boring-hypatia-f77f59.netlify.app/"
+      },
+      {
+        "title": "Lyrics Finder",
+        "category": "Website I built to find lyrics.(General purpose)",
+        "image": "lyrics-finder.JPG",
+        "url": "https://pesto-students.github.io/lyrics-finder-RenuSuresh/"
+      },
+      {
+        "title": "Full Cart",
+        "category": "Full Cart is website based on e-commerce, build with MERN stack.",
+        "image": "full-cart.JPG",
+        "url": "https://stagging-fullcart.netlify.app/"
+      },
+      {
+        "title": "COVID-19 Tracker",
+        "category": "Project made to track covid patients worldwide",
+        "image": "covid-19-tracker.JPG",
+        "url": "https://frosty-spence-3c9431.netlify.app/"
+      }
+    ]
   }
 }

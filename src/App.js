@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import About from "./Components/About/About";
 import Resume from "./Components/Resume/Resume";
+import Portfolio from "./Components/Portfolio/Portfolio";
 function App() {
   const [biodata, setBioData] = useState([]);
   const [res, setRes] = useState({});
@@ -21,6 +22,7 @@ function App() {
       <Header data={res.data} />
       <About data={res.data} />
       <Resume data={res.data} />
+      <Portfolio data={res.data} />
       {/* {res.data && <About data={res.data} />} */}
     </div>
   );

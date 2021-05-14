@@ -1,20 +1,15 @@
 import React from "react";
-import ParticlesBg from "particles-bg";
 import "./Header.css";
 
 function Header({ data }) {
-  console.log("data in header sent is >>>>", data);
-
   if (data) {
     var project = data.main.project;
     var github = data.main.github;
     var name = data.main.name;
     var description = data.main.description;
-    var state = data.main.address.state;
   }
   return (
-    <header id="home">
-      <ParticlesBg type="circle" bg={true} />
+    <header id="home" className="background-image">
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           Show navigation
@@ -53,7 +48,7 @@ function Header({ data }) {
       </nav>
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">{name}</h1>
+          <h1 className="responsive-headline">I'm {name}</h1>
           <h3>{description}.</h3>
           <hr />
           <ul className="social">
