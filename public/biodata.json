@@ -2,12 +2,15 @@
   "main": {
     "name": "Renu Suresh Ganvir",
     "description": "I am a web development engineer and I use react and Angular to develop pages. This project is a resume template, in which tech stack I used is React",
-    "bio": "I am a project engineer (Developer) at Wipro. I have worked on Angular based projects, as an interest, I have learned React and also done mini projects. I am hardworking and eager to learn new technology for the better tech development. In my free time I like to do art work, making greeting cards and origami, I also like to visit orphanage home, during festival or if planning any tour.",
+    "bio": "I am a highly competent IT professional with a proven track record in designing websites.I have strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of clients.(US and UK). I am currently looking for an opportunity to utilise my technical skills in a challenging working environment and become a valuable asset to the organisation that I work for.",
     "email": "rganvir500@gmail.com",
     "github": "https://github.com/RenuSuresh/portfolio",
     "project": "https://github.com/RenuSuresh/portfolio",
+    "image": "profile.jpg",
     "address": {
-      "state": "New Delhi"
+      "street": "Palam",
+      "state": "New Delhi",
+      "zip": 110077
     },
     "social": [
       {
@@ -19,6 +22,126 @@
         "name": "github",
         "url": "https://github.com/RenuSuresh",
         "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "Karunya Institute of technology and sciences",
+        "degree": "Bachelor of Technology (Computer Science)",
+        "graduated": "June 2018",
+        "description": "Key skills I have learned, Operating System, Algorithm, Data Structure, Web Development. College taught me that the discipline of earning a degree is an indicator for potential employers and/or clients that a graduate has the diligence to analyze problems, learn and find the right answers. "
+      }
+    ],
+    "work": [
+      {
+        "company": "Wipro Ltd.",
+        "title": "Project Engineer",
+        "years": "July 2018 - Present",
+        "description": [
+          {
+            "client": "Client 1: US Bank",
+            "description": [
+              "Worked with team of 15, reduced usage of redirects and utilized dataStorage as cache, which ultimately reduced the load time of application by 5%;",
+              "Developed B2B transaction for Tellers in the bank, that includes managing digital check and denomination in the same session, using Angular and API",
+              "Streamlined the data flow inside angular components by ensuring the api calls were standardized.",
+              "Developed UI design for the app, that includes validation and displayed the share data in different components of the module."
+            ],
+            "techStack": ["Angular 6", "HTML", "CSS", "Bootstrap", "TypeScript"]
+          },
+          {
+            "client": "Client 2: Wipro-Holmes",
+            "description": [
+              "Developed a document analysing and managing app which helps in reviewing it.",
+              "Used the accuracy which ML team will send, and used as API to manage and manipulate file data.",
+              "Working on UI to be deployed on serverless to reduce the cost of app running on server by 12%"
+            ],
+            "techStack": [
+              "Angular 6",
+              "HTML",
+              "less",
+              "Bootstrap",
+              "TypeScript",
+              "AWS S3",
+              "API Gateway"
+            ]
+          },
+          {
+            "client": "Client 3: Fleet-UK",
+            "description": [
+              "Working as a single-person UI and UX development of React app, to manage the petrol cards details by the drivers",
+              "Standardized UX screen with the guidelines, used figma, to achieve the design",
+              "Using React-redux, to manage states and update it, that will help, to maintain and manage the code more redable than cobol by 70%"
+            ],
+            "techStack": [
+              "React",
+              "CSS",
+              "React-Redux",
+              "Redux",
+              "Bootstrap",
+              "Redux-thunk"
+            ]
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "80%"
+      },
+
+      {
+        "name": "ReactJs",
+        "level": "70%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+
+      {
+        "name": "Angular",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Amazon Clone",
+        "category": "(POC) Learning to build Amazon clone with React.",
+        "image": "amazon-clone.png",
+        "url": "https://laughing-babbage-186442.netlify.app"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "(POC) Netflix clone to check the latest moview uploaded. Can view the trailer.",
+        "image": "netflix-clone.JPG",
+        "url": "https://boring-hypatia-f77f59.netlify.app/"
+      },
+      {
+        "title": "Lyrics Finder",
+        "category": "Website I built to find lyrics.(General purpose)",
+        "image": "lyrics-finder.JPG",
+        "url": "https://pesto-students.github.io/lyrics-finder-RenuSuresh/"
+      },
+      {
+        "title": "Full Cart",
+        "category": "Full Cart is website based on e-commerce, build with MERN stack.",
+        "image": "full-cart.JPG",
+        "url": "https://stagging-fullcart.netlify.app/"
+      },
+      {
+        "title": "COVID-19 Tracker",
+        "category": "Project made to track covid patients worldwide",
+        "image": "covid-19-tracker.JPG",
+        "url": "https://frosty-spence-3c9431.netlify.app/"
       }
     ]
   }
