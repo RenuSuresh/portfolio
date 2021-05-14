@@ -6,7 +6,6 @@ import About from "./Components/About/About";
 import Resume from "./Components/Resume/Resume";
 import Portfolio from "./Components/Portfolio/Portfolio";
 function App() {
-  const [biodata, setBioData] = useState([]);
   const [res, setRes] = useState({});
 
   useEffect(() => {
